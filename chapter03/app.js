@@ -135,6 +135,7 @@
         };
 
         visualEditorToolbar.addEventListener('click', richTextAction, false);
+<<<<<<< HEAD
 
         // Creating an application filesystem
         window.requestFileSystem = window.requestFileSystem
@@ -442,6 +443,8 @@
             e.dataTransfer.dropEffect = 'copy';
             e.dataTransfer.setData('DownloadURL', 'application/octet-stream:'+file.name+':'+file.toURL());
         };
+=======
+>>>>>>> 645be59c50f26d8fd38aa7a0ec2fd04ebe96a367
     };
 
     var init = function() {
